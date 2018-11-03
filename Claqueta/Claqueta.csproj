@@ -103,10 +103,12 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Estilos\menuStyle.css" />
     <Content Include="Imagenes\animalesFantasticos-banner.png" />
+    <Content Include="Imagenes\mataromorir.jpg" />
     <Content Include="Imagenes\menu.png" />
     <Content Include="Imagenes\naceUnaEstrella-banner.jpg" />
     <Content Include="Imagenes\reloj-banner.jpg" />
     <Content Include="Imagenes\venom-Banner.png" />
+    <Content Include="Imagenes\venomm.png" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />

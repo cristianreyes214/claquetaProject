@@ -185,3 +185,92 @@ ul li {
 .marca_submenu::before {
     content: -final de contenido;
 }
+
+h2{
+    color:darkslategray;
+    text-shadow: 2px 2px #ff0000;
+}
+
+/*Menu de imagenes de las paginas de salas*/
+header {
+    background-color:#ddd;
+    width: 100%;
+    border: solid 1px #06060642;
+    height: 430px;
+    margin: 40px auto;
+    border-radius: 4px;
+    overflow:hidden;
+}
+
+nav{
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position:relative;
+}
+
+div.contenedor{
+    margin: 30px 60px;
+    width: 83%;
+    height: 27%;
+    overflow:hidden;
+}
+
+div.contenedores{
+    position:relative;
+    width: 30%;
+    height: 90%;
+    margin: 10px 10px;
+    float: left;
+    overflow: hidden;
+    border-radius: 4px;
+    
+}
+
+p.texto{
+    background-color:white;
+    padding: 14px;
+    margin: -49px 0 0 0;
+    border-radius: 2px;
+    transition: margin 0.5s;
+        -webkit-transition: margin 0.5s;
+        -moz-transition: margin 0.5s;
+        -o-transition: margin 0.5s;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+div.imagen1{
+    background-image:url(../Imagenes/halloween.jpg);
+    background-size:100%;
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+}
+
+div.imagen2{
+    background-image:url('../Imagenes/mataromorir.jpg');
+    background-size:100%;
+    width:100%;
+    height:100%;
+}
+
+div.imagen3{
+    background-image:url(../Imagenes/venomm.png);
+    background-size:100%;
+    width:100%;
+    height:100%;
+}
+
+div.contenedores:hover p.texto{
+     margin:0px;
+}
+
+p.texto:hover{
+    background-color:blue;
+    color:white;
+}
