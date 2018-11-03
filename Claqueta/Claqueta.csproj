@@ -102,13 +102,20 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Estilos\menuStyle.css" />
+    <Content Include="Imagenes\animalesFantasticos-banner.png" />
     <Content Include="Imagenes\menu.png" />
+    <Content Include="Imagenes\naceUnaEstrella-banner.jpg" />
+    <Content Include="Imagenes\reloj-banner.jpg" />
+    <Content Include="Imagenes\venom-Banner.png" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.3.1.js" />
+    <Content Include="Modulos\Cosmocentro.aspx" />
+    <Content Include="Modulos\Palmetto.aspx" />
     <Content Include="Modulos\Registro.aspx" />
+    <Content Include="Modulos\Unicentro.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -144,12 +151,33 @@
     <Compile Include="Master\Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\Cosmocentro.aspx.cs">
+      <DependentUpon>Cosmocentro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cosmocentro.aspx.designer.cs">
+      <DependentUpon>Cosmocentro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Palmetto.aspx.cs">
+      <DependentUpon>Palmetto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Palmetto.aspx.designer.cs">
+      <DependentUpon>Palmetto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modulos\Registro.aspx.designer.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Unicentro.aspx.cs">
+      <DependentUpon>Unicentro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Unicentro.aspx.designer.cs">
+      <DependentUpon>Unicentro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

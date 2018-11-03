@@ -11,6 +11,9 @@
     <link href="../css/bootstrap.css" rel="stylesheet" />
     <script src="../js/jquery-3.3.1.js"></script> 
     <script src="../Scripts/scriptMenu.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../Estilos/menuStyle.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -36,7 +39,13 @@
                         <li><a class="submenu__enlace" href="#">Favoritas</a></li>
                     </ul>
                 </li>
-                <li><a class="menu__enlace" href="#">Salas de Cine</a></li>
+                <li><a class="menu__enlace" href="#">Salas de Cine</a>
+                    <ul class="submenu">
+                        <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
+                        <li><a class="submenu__enlace" href="../Modulos/Unicentro.aspx">Unicentro</a></li>
+                        <li><a class="submenu__enlace" href="../Modulos/Palmetto.aspx">Palmetto</a></li>
+                    </ul>
+                </li>
                 <li><a class="menu__enlace" href="#">Contactenos</a></li>
             </ul>
         </div>
