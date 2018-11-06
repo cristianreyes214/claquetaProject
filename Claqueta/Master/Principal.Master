@@ -15,22 +15,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../Estilos/menuStyle.css" rel="stylesheet" />
+    <link href="../Estilos/masterStyle.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
-    <div class="container-fluid contenedor--div ">
-        <div class="icono--div">
-            <div class="icono">
+    <form id="form1" runat="server" >
+       
+            <!--barra superior-->
+            <div class="navbar_header ">
+                <div class="container_header position-fixed">
+                    <div class="logo_header  align-middle">
+                        <asp:ImageButton ID="imaBtLogo" runat="server" ImageUrl="~/Imagenes/Master/Claqueta_Letter.png" />
+                    </div>
+                    <div class="search_header  align-middle ">
+                        <asp:ImageButton ID="imaBtSearch" runat="server" ImageUrl="~/Imagenes/Master/loupeSearch.png" />
+                    </div>
+                    <div class="userBar_header text-right align-middle">
+                            <a href="../Modulos/InicioSesion.aspx" class="inicio_header">
+                                <asp:Image ID="imaUser" runat="server" ImageUrl="~/Imagenes/Master/IngUser.png" />
+                                <asp:Label ID="Label1" runat="server" Text="Label">Iniciar Sesión</asp:Label>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="container-fluid contenedor--div ">
+            <div class="icono--div">
+                <div class="icono">
                 <a href="#">
-                    <asp:Image ID="imaMenu" runat="server" ImageUrl="~/Imagenes/menu.png" />
+                    <asp:Image ID="imaMenu" runat="server" ImageUrl="~/Imagenes/Master/menu.png" />
                 </a>
             </div>
         </div>
-
         <div class=" contenedor--menu">
             <ul class="menu">
                 <li><a class="menu__enlace" href="#">Estrenos</a></li>
@@ -51,15 +69,15 @@
         </div>
         <div class="container contenido__div">
             <div class="container contenido">
-
-                <form id="form1" runat="server">
+                
                     <div>
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                         </asp:ContentPlaceHolder>
                     </div>
-                </form>
+                
             </div>
         </div>
     </div>
+    </form>
 </body>
 </html>

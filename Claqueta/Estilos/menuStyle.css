@@ -54,7 +54,7 @@ ul li {
     background-color: #0f0f0f;
     z-index: 300;
     height: 100%;
-    width: 250px;
+    width: 210px;
     -webkit-box-shadow: 6px 5px 10px 0px rgba(50, 50, 50, 0.22);
     -moz-box-shadow: 6px 5px 10px 0px rgba(50, 50, 50, 0.22);
     -o-box-shadow: 6px 5px 10px 0px rgba(50, 50, 50, 0.22);
@@ -117,9 +117,8 @@ ul li {
 
     .icono a {
         padding: 10px 15px;
-        background-color: white;
+        background-color: transparent;
         display: inline-block;
-        color: white;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -ms-transition: all 0.5s ease;
@@ -128,8 +127,7 @@ ul li {
     }
 
         .icono a:hover {
-            background-color: hsl(0, 0%, 67%);
-            color: #0f0f0f;
+            background-color:lightgray;
             -webkit-transition: all 0.5s ease;
             -moz-transition: all 0.5s ease;
             -ms-transition: all 0.5s ease;
@@ -139,9 +137,9 @@ ul li {
 
 .span__raya {
     display: block;
-    height: 3px;
+    height: 2px;
     padding: 2px;
-    width: 20px;
+    width: 15px;
     background-color: black;
     margin: 3px 0px;
 }

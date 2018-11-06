@@ -1,0 +1,52 @@
+﻿@font-face {
+    font-family: 'HussarBold';
+    src: url('Fonts/HussarBold.otf') format('opentype');
+}
+
+body {
+   
+}
+
+.navbar_header {
+    position: relative;
+    background-color: #223143;
+    height: 70px;
+    z-index:1;
+}
+
+.container_header {
+    background-color: #223143;
+    height: 70px;
+    width:100%;
+}
+
+.logo_header {
+    width: 230px;
+    padding: 15px 10px;
+}
+
+.search_header {
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    width: 230px;
+    padding: 15px 10px;
+}
+
+.inicio_header {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    padding: 15px 10px;
+    width: 230px;
+    color:lightgray;
+    font-family:HussarBold;
+    font-size: 15px;
+}
+
+.inicio_header:hover {
+    position: absolute;
+    color:ghostwhite;
+
+  
+}

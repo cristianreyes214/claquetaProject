@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FormInicio.master.cs" Inherits="Claqueta.Master.FormInicio" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Inicio de sesión </title>
+     <!-- CSS BOOTSTRAP -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <script src="../js/jquery-3.3.1.js"></script> 
+    <script src="../Scripts/scriptMenu.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

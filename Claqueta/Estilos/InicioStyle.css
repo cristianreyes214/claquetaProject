@@ -1,0 +1,24 @@
+﻿@font-face {
+    font-family: 'HussarBold';
+    src: url('Fonts/HussarBold.otf') format('opentype');
+}
+
+
+.form_inicio {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    border:solid;
+    background-color:whitesmoke;
+    border-radius:10px;
+}
+
+.lbIng{
+    font-family:HussarBold;
+    font-size:20px;
+}
+
+.lbRegistrar {
+   color:dimgray !important;
+    font-size:15px;
+}

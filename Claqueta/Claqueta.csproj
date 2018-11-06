@@ -101,10 +101,18 @@
     <Content Include="css\bootstrap-reboot.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="Estilos\InicioStyle.css" />
+    <Content Include="Estilos\masterStyle.css" />
     <Content Include="Estilos\menuStyle.css" />
+    <Content Include="Estilos\RegistroStyle.css" />
     <Content Include="Imagenes\animalesFantasticos-banner.png" />
+    <Content Include="Imagenes\InicioSesion\user.png" />
+    <Content Include="Imagenes\Master\IngUser.png" />
+    <Content Include="Imagenes\Master\Claqueta_Letter.png" />
+    <Content Include="Imagenes\Master\Claqueta_LogoB.png" />
+    <Content Include="Imagenes\Master\loupeSearch.png" />
     <Content Include="Imagenes\mataromorir.jpg" />
-    <Content Include="Imagenes\menu.png" />
+    <Content Include="Imagenes\Master\menu.png" />
     <Content Include="Imagenes\naceUnaEstrella-banner.jpg" />
     <Content Include="Imagenes\reloj-banner.jpg" />
     <Content Include="Imagenes\venom-Banner.png" />
@@ -115,6 +123,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.3.1.js" />
     <Content Include="Modulos\Cosmocentro.aspx" />
+    <Content Include="Modulos\InicioSesion.aspx" />
     <Content Include="Modulos\Palmetto.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\Unicentro.aspx" />
@@ -134,6 +143,8 @@
     <Content Include="css\bootstrap-reboot.min.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="Estilos\Fonts\HussarBold.otf" />
+    <Content Include="Master\FormInicio.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -146,6 +157,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\FormInicio.Master.cs">
+      <DependentUpon>FormInicio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\FormInicio.Master.designer.cs">
+      <DependentUpon>FormInicio.Master</DependentUpon>
+    </Compile>
     <Compile Include="Master\Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -159,6 +177,13 @@
     </Compile>
     <Compile Include="Modulos\Cosmocentro.aspx.designer.cs">
       <DependentUpon>Cosmocentro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\InicioSesion.aspx.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\InicioSesion.aspx.designer.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Palmetto.aspx.cs">
       <DependentUpon>Palmetto.aspx</DependentUpon>
