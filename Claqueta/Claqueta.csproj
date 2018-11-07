@@ -106,6 +106,8 @@
     <Content Include="Estilos\menuStyle.css" />
     <Content Include="Estilos\RegistroStyle.css" />
     <Content Include="Imagenes\animalesFantasticos-banner.png" />
+    <Content Include="Imagenes\bohemian.jpg" />
+    <Content Include="Imagenes\el cascanueces.jpg" />
     <Content Include="Imagenes\InicioSesion\user.png" />
     <Content Include="Imagenes\Master\IngUser.png" />
     <Content Include="Imagenes\Master\Claqueta_Letter.png" />
@@ -114,6 +116,7 @@
     <Content Include="Imagenes\mataromorir.jpg" />
     <Content Include="Imagenes\Master\menu.png" />
     <Content Include="Imagenes\naceUnaEstrella-banner.jpg" />
+    <Content Include="Imagenes\no dormiras.jpg" />
     <Content Include="Imagenes\reloj-banner.jpg" />
     <Content Include="Imagenes\venom-Banner.png" />
     <Content Include="Imagenes\venomm.png" />

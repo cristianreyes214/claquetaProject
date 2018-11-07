@@ -2,7 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style2 {
-            width: 508px;
+            width: 388px;
+        }
+        .auto-style3 {
+            width: 25px;
         }
     </style>
 </asp:Content>
@@ -60,21 +63,21 @@
             <div class="contenedor">
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=sVBa5hNZFHM"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
                     <div class="imagen1"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=x4DENTMBwXo"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
                     <div class="imagen2"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=mYTmQWZkw10"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
                     <div class="imagen3"></div>
                 </div>
@@ -82,30 +85,63 @@
             <div class="contenedor">
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=65jEdJHko-M"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
-                    <div class="imagen1"></div>
+                    <div class="imagen4"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=01Sn153r9RY"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
-                    <div class="imagen2"></div>
+                    <div class="imagen5"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
-                    <a><p class="texto">Ver trailer</p></a>
+                    <a href="https://www.youtube.com/watch?v=RunY-tRHo9A"><p class="texto">Ver trailer</p></a>
                     <a><p class="texto">Ver horarios</p></a>
-                    <div class="imagen3"></div>
+                    <div class="imagen6"></div>
                 </div>
             </div>
         </nav>
     </header>
     <h3><strong>¿Cómo llegar?</strong></h3>
     <br />
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7449896276526!2d-76.54993098573719!3d3.412221652431833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a71250e0566b%3A0x497e8fc212cca229!2sCosmocentro!5e0!3m2!1ses!2sco!4v1541259627168" height="450" frameborder="0" style="border:0" allowfullscreen class="auto-style2"></iframe>
-
+    <table class="w-100">
+        <tr>
+            <td rowspan="8"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7449896276526!2d-76.54993098573719!3d3.412221652431833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a71250e0566b%3A0x497e8fc212cca229!2sCosmocentro!5e0!3m2!1ses!2sco!4v1541259627168" frameborder="0" style="border-style: none; border-color: inherit; border-width: 0; height: 301px;" allowfullscreen class="auto-style2"></iframe>&nbsp;</td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td><strong>Dirección:</strong> Calle 5 #50-103</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td>Teléfono: 553 11 50</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td><strong>Para más información ingrese al sitio oficial de Cosmocentro.</strong></td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td><a href="http://cosmocentro.com/">CENTRO COMERCIAL COSMOCENTRO</a></td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <br />
 </asp:Content>

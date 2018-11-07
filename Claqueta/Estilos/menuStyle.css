@@ -239,7 +239,7 @@ p.texto{
 
 a{
     text-decoration: none;
-    color:white;
+    color:black;
 }
 
 div.imagen1{
@@ -259,6 +259,27 @@ div.imagen2{
 
 div.imagen3{
     background-image:url(../Imagenes/venomm.png);
+    background-size:100%;
+    width:100%;
+    height:100%;
+}
+
+div.imagen4{
+    background-image:url('../Imagenes/el cascanueces.jpg');
+    background-size:100%;
+    width:100%;
+    height:100%;
+}
+
+div.imagen5{
+    background-image:url(../Imagenes/bohemian.jpg);
+    background-size:100%;
+    width:100%;
+    height:100%;
+}
+
+div.imagen6{
+    background-image:url('../Imagenes/no dormiras.jpg');
     background-size:100%;
     width:100%;
     height:100%;
