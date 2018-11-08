@@ -104,6 +104,7 @@
     <Content Include="Estilos\InicioStyle.css" />
     <Content Include="Estilos\masterStyle.css" />
     <Content Include="Estilos\menuStyle.css" />
+    <Content Include="Estilos\perfilStyle.css" />
     <Content Include="Estilos\RegistroStyle.css" />
     <Content Include="Imagenes\animalesFantasticos-banner.png" />
     <Content Include="Imagenes\bohemian.jpg" />
@@ -128,6 +129,7 @@
     <Content Include="Modulos\Cosmocentro.aspx" />
     <Content Include="Modulos\InicioSesion.aspx" />
     <Content Include="Modulos\Palmetto.aspx" />
+    <Content Include="Modulos\Perfil.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\Unicentro.aspx" />
     <Content Include="packages.config" />
@@ -194,6 +196,13 @@
     </Compile>
     <Compile Include="Modulos\Palmetto.aspx.designer.cs">
       <DependentUpon>Palmetto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>

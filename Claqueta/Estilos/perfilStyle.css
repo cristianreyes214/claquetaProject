@@ -1,0 +1,19 @@
+﻿@font-face {
+    font-family: 'HussarBold';
+    src: url('Fonts/HussarBold.otf') format('opentype');
+}
+
+
+body {
+}
+
+.containter_Profile {
+ 
+    border: solid;
+    border-radius: 10px;
+}
+
+.lbPerfil{
+    font-family:HussarBold;
+    font-size:20px;
+}

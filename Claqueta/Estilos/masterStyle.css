@@ -11,7 +11,7 @@ body {
     position: relative;
     background-color: #223143;
     height: 70px;
-    z-index:1;
+    z-index:100;
 }
 
 .container_header {

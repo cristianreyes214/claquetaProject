@@ -65,6 +65,7 @@
                     </ul>
                 </li>
                 <li><a class="menu__enlace" href="#">Contactenos</a></li>
+                <li><a class="menu__enlace" href="../Modulos/Perfil.aspx">Perfil</a></li>
             </ul>
         </div>
         <div class="container contenido__div">
