@@ -17,21 +17,102 @@ body {
 .container_header {
     background-color: #223143;
     height: 70px;
-    width:100%;
+    width: 100%;
 }
 
 .logo_header {
     width: 230px;
     padding: 15px 10px;
 }
-
+/*Barra Busqueda*/
 .search_header {
     position: absolute;
     left: 200px;
-    top: 5px;
+    top: 24px;
     width: 230px;
-    padding: 15px 10px;
+    white-space:nowrap;
+    
 }
+
+.container_search {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+    .container_search input#search {
+        width: 37px;
+        height: 25px;
+        background: #223143;
+        border: none;
+        font-size: 10pt;
+        float: left;
+        color: #262626;
+        padding-left: 35px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #fff;
+        -webkit-transition: width .55s ease;
+        -moz-transition: width .55s ease;
+        -ms-transition: width .55s ease;
+        -o-transition: width .55s ease;
+        transition: width .55s ease;
+    }
+
+        .container_search input#search::-webkit-input-placeholder {
+            color: #65737e;
+        }
+
+        .container_search input#search:-moz-placeholder { /* Firefox 18- */
+            color: #65737e;
+        }
+
+        .container_search input#search::-moz-placeholder { /* Firefox 19+ */
+            color: #65737e;
+        }
+
+        .container_search input#search:-ms-input-placeholder {
+            color: #65737e;
+        }
+
+    .container_search .icon {
+        position: absolute;
+        padding-left: 5px;
+        z-index: 1;
+        color: #93a2ad;
+    }
+
+    .container_search input#search:focus, .container_search input#search:active {
+        outline: none;
+        width: 300px;
+        background-color:white;
+    }
+
+    .container_search:hover input#search {
+        width: 300px;
+    }
+
+    .container_search:hover .icon {
+        color: #93a2ad;
+    }
+
+
+/*.txBusqueda {
+    position: absolute;
+    left: 45px;
+    top: 5px;
+    width: 250px;
+    padding: 15px 10px;
+    background-color:transparent;
+    border-color:transparent;
+    color:white;
+
+}*/
+
+
+
 
 .inicio_header {
     position: absolute;

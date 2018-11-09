@@ -16,6 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../Estilos/menuStyle.css" rel="stylesheet" />
     <link href="../Estilos/masterStyle.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -29,8 +30,11 @@
                     <div class="logo_header  align-middle">
                         <asp:ImageButton ID="imaBtLogo" runat="server" ImageUrl="~/Imagenes/Master/Claqueta_Letter.png" />
                     </div>
-                    <div class="search_header  align-middle ">
-                        <asp:ImageButton ID="imaBtSearch" runat="server" ImageUrl="~/Imagenes/Master/loupeSearch.png" />
+                    <div class="search_header">
+                        <div class="container_search">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Nombre o palabra clave" />
+                        </div>
                     </div>
                     <div class="userBar_header text-right align-middle">
                             <a href="../Modulos/InicioSesion.aspx" class="inicio_header">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal.Master" AutoEventWireup="true" CodeBehind="Perfil.aspx.cs" Inherits="Claqueta.Modulos.Perfil" %>
+﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal.Master" AutoEventWireup="true" CodeBehind="Perfil.aspx.cs" Inherits="Claqueta.Modulos.Perfil" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../Estilos/perfilStyle.css" rel="stylesheet" />
 </asp:Content>
