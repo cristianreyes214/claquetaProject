@@ -158,6 +158,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\Busqueda1.js" />
     <Content Include="Scripts\scriptMenu.js" />
     <Content Include="Web.config" />
   </ItemGroup>
