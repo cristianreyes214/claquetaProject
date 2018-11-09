@@ -17,7 +17,7 @@
                 <div class="contentInp col text-left">
                     <asp:Label ID="lbUSer" class="pl-4" runat="server" Text="Label">Usuario</asp:Label>
                     <div class="col-sm-12">
-                        <input id="txUser" class="form-control" type="text" placeholder="usuario"  />
+                        <input id="txUser" class="form-control" type="text" runat="server" placeholder="usuario"  />
                     </div>
                 </div>
             </div>
@@ -25,13 +25,13 @@
                 <div class="contentInp col text-left">
                     <asp:Label ID="lbPassword" class="pl-4" runat="server" Text="Label">Contraseña</asp:Label>
                     <div class="col-sm-12">
-                        <input id="txPassword" class="form-control" type="password" placeholder="contraseña"    />
+                        <input id="txPassword" class="form-control" type="password" runat="server" placeholder="contraseña"    />
                    </div>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class="col text-center align-content-around">
-                    <asp:Button ID="btIniciarSesion" class="btn btn-danger btn-lg" runat="server" Text="Iniciar Sesion" />
+                    <asp:Button ID="btIniciarSesion" class="btn btn-danger btn-lg" runat="server" onclick="btInicio_Click" Text="Iniciar Sesion" />
                     <asp:Button ID="btCancelar" class="btn btn-danger btn-lg" runat="server" Text="Cancelar" PostBackUrl="~/Modulos/Unicentro.aspx" />
                 </div>
             </div>

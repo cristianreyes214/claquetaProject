@@ -13,7 +13,7 @@
                     <div class="form-group">
                         <label for="txUser" class="col-sm-12">Usuario(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txUser" id="txUser" class="form-control" type="text" />
+                            <input name="txUser" id="txUser" class="form-control" runat="server" type="text" />
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     <div class="form-group">
                         <label for="txDocumento" class="col-sm-10 ">Numero de Documento(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txDocumento" id="txDocumento" class="form-control" type="number" />
+                            <input name="txDocumento" id="txDocumento" class="form-control" runat="server" type="number" />
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="form-group">
                         <label for="txNombre" class="col-sm-12 ">Nombre(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txNombre" id="txNombre" class="form-control" type="text" />
+                            <input name="txNombre" id="txNombre" class="form-control" runat="server" type="text" />
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="form-group">
                         <label for="txApellido" class="col-sm-12 ">Apellido(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txApellido" id="txApellido" class="form-control" type="text" />
+                            <input name="txApellido" id="txApellido" class="form-control" runat="server" type="text" />
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                     <div class="form-group">
                         <label for="txCorreo" class="col-sm-12 ">Correo Electrónico(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txCorreo" id="txCorreo" class="form-control" type="email" />
+                            <input name="txCorreo" id="txCorreo" class="form-control" runat="server" type="email" />
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="form-group">
                         <label for="txCorreo2" class="col-sm-12 ">Confirmar Correo Electrónico(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txCorreo2" id="txCorreo2" class="form-control" type="email" />
+                            <input name="txCorreo2" id="txCorreo2" class="form-control" runat="server" type="email" />
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <div class="form-group">
                         <label for="txContrasenia" class="col-sm-12 ">Contraseña(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txPassword" id="txPassword" class="form-control" type="password" />
+                            <input name="txPassword" id="txPassword" class="form-control" runat="server" type="password" />
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                     <div class="form-group">
                         <label for="txContrasenia2" class="col-sm-12 ">Confirmar contraseña(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
-                            <input name="txPassword2" id="txPassword2" class="form-control" type="password" />
+                            <input name="txPassword2" id="txPassword2" class="form-control" runat="server" type="password" />
                         </div>
                     </div>
                 </div>
@@ -101,8 +101,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-primary btn-lg ml-4" id="btRegistrar" onclick="btRegistrar_Click">Registrar</button>
-                    <button type="button" class="btn btn-primary btn-lg ml-4" id="btSalir">Salir</button>
+                    <asp:Button ID="btRegistrar" class="btn btn-primary btn-lg ml-4" onclick="btRegistrar_Click" runat="server" Text="Registrar" />
+                    <asp:Button ID="btSalir" class="btn btn-primary btn-lg ml-4" onclick="btSalir_Click" runat="server" Text="Salir" />
                 </div>
             </div>
         </div>
