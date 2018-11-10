@@ -21,21 +21,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="../Imagenes/venom-Banner.png" alt="" style="width: 100%;" />
+                <img src="../Imagenes/Banners/venomBanner.jpg" alt="" style="width: 100%;" />
                 <div class="carousel-caption">
                     <h3>Venom</h3>
                 </div>
             </div>
 
             <div class="item">
-                <img src="../Imagenes/animalesFantasticos-banner.png" alt="" style="width: 100%;" />
+                <img src="../Imagenes/Banners/animalesFantasticosBanner.png" alt="" style="width: 100%;" />
                 <div class="carousel-caption">
                     <h3>Animales Fantasticos</h3>
                 </div>
             </div>
 
             <div class="item">
-                <img src="../Imagenes/naceUnaEstrella-banner.jpg" alt="" style="width: 100%;" />
+                <img src="../Imagenes/Banners/naceUnaEstrellabanner.jpg" alt="" style="width: 100%;" />
                 <div class="carousel-caption">
                     <h3>Nace una estrella</h3>
                 </div>
@@ -64,21 +64,21 @@
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=sVBa5hNZFHM"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen1"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=x4DENTMBwXo"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen2"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=mYTmQWZkw10"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen3"></div>
                 </div>
             </div>
@@ -86,21 +86,21 @@
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=65jEdJHko-M"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen4"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=01Sn153r9RY"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen5"></div>
                 </div>
 
                 <div class="contenedores">
                     <a><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=RunY-tRHo9A"><p class="texto">Ver trailer</p></a>
-                    <a><p class="texto">Ver horarios</p></a>
+                    <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen6"></div>
                 </div>
             </div>
@@ -144,4 +144,5 @@
         </tr>
     </table>
     <br />
+    <br />    
 </asp:Content>

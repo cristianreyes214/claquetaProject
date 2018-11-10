@@ -107,10 +107,12 @@
     <Content Include="Estilos\menuStyle.css" />
     <Content Include="Estilos\perfilStyle.css" />
     <Content Include="Estilos\RegistroStyle.css" />
-    <Content Include="Imagenes\animalesFantasticos-banner.png" />
+    <Content Include="Imagenes\Banners\animalesFantasticosBanner.png" />
+    <Content Include="Imagenes\Banners\naceUnaEstrellabanner.jpg" />
     <Content Include="Imagenes\bohemian.jpg" />
     <Content Include="Imagenes\el cascanueces.jpg" />
     <Content Include="Imagenes\InicioSesion\user.png" />
+    <Content Include="Imagenes\left-arrow.png" />
     <Content Include="Imagenes\Master\IngUser.png" />
     <Content Include="Imagenes\Master\Claqueta_Letter.png" />
     <Content Include="Imagenes\Master\Claqueta_LogoB.png" />
@@ -118,9 +120,10 @@
     <Content Include="Imagenes\mataromorir.jpg" />
     <Content Include="Imagenes\Master\menu.png" />
     <Content Include="Imagenes\naceUnaEstrella-banner.jpg" />
+    <Content Include="Imagenes\nhrZXnl.jpg" />
     <Content Include="Imagenes\no dormiras.jpg" />
     <Content Include="Imagenes\reloj-banner.jpg" />
-    <Content Include="Imagenes\venom-Banner.png" />
+    <Content Include="Imagenes\Banners\venomBanner.jpg" />
     <Content Include="Imagenes\venomm.png" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -129,6 +132,7 @@
     <Content Include="js\jquery-3.3.1.js" />
     <Content Include="Modulos\contactenos.aspx" />
     <Content Include="Modulos\Cosmocentro.aspx" />
+    <Content Include="Modulos\Horarios.aspx" />
     <Content Include="Modulos\InicioSesion.aspx" />
     <Content Include="Modulos\Palmetto.aspx" />
     <Content Include="Modulos\Perfil.aspx" />
@@ -193,6 +197,13 @@
     </Compile>
     <Compile Include="Modulos\Cosmocentro.aspx.designer.cs">
       <DependentUpon>Cosmocentro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Horarios.aspx.cs">
+      <DependentUpon>Horarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Horarios.aspx.designer.cs">
+      <DependentUpon>Horarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\InicioSesion.aspx.cs">
       <DependentUpon>InicioSesion.aspx</DependentUpon>
