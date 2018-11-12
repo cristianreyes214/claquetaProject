@@ -4,7 +4,7 @@
 }
 
 body {
-   
+    background:linear-gradient(rgba(34,49,67,.94),rgba(34,49,67,.95));
 }
 
 .navbar_header {

@@ -21,7 +21,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body >
     <form id="form1" runat="server" >
        
             <!--barra superior-->
@@ -68,15 +68,15 @@
                         <li><a class="submenu__enlace" href="../Modulos/Palmetto.aspx">Palmetto</a></li>
                     </ul>
                 </li>
-                <li><a class="menu__enlace" href="#">Contactenos</a></li>
+                <li><a class="menu__enlace" href="../Modulos/contactenos.aspx">Contactenos</a></li>
                 <li><a class="menu__enlace" href="../Modulos/Perfil.aspx">Perfil</a></li>
             </ul>
         </div>
-        <div class="container contenido__div">
+        <div class="container contenido__div" style="background-color:white">
             <div class="container contenido">
                 
                     <div>
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
                         </asp:ContentPlaceHolder>
                     </div>
                 

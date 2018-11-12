@@ -8,15 +8,15 @@
             switch (social_id) {
                 case 'twitter':
                     new_textcolor = '#55d4ff';
-                    new_text = 'Twitter friends';
+                    //new_text = 'Twitter friends';
                     break;
                 case 'facebook':
                     new_textcolor = '#354970';
-                    new_text = 'Facebook friends';
+                    //new_text = 'Facebook friends';
                     break;
                 case 'googleplus':
                     new_textcolor = '#383638';
-                    new_text = 'Google+ friends';
+                    //new_text = 'Google+ friends';
                     break;
               
             }
