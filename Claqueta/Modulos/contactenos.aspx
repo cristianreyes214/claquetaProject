@@ -4,7 +4,7 @@
     <script src="../Scripts/jsRedes.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="form_inicio container">
+    <div class="form_contactenos container">
         <asp:Label ID="lbContactenos" class="lbContactenos" runat="server" Text="Label">Contáctenos</asp:Label>
         <br />
         <br />
