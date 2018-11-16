@@ -73,6 +73,7 @@
                         <label for="txCorreo2" class="col-sm-12 ">Confirmar Correo Electrónico(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
                             <input name="txCorreo2" id="txCorreo2" class="form-control" runat="server" type="email" />
+                            <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Deben coincidir los correos" ControlToCompare="txCorreo" ControlToValidate="txCorreo2" Text="Los correos no coiciden" Font-Bold="True"></asp:CompareValidator>
                         </div>
                     </div>
                 </div>
@@ -91,6 +92,7 @@
                         <label for="txContrasenia2" class="col-sm-12 ">Confirmar contraseña(<label class="text-danger">*</label><label>):</label></label>
                         <div class="col-sm-12">
                             <input name="txPassword2" id="txPassword2" class="form-control" runat="server" type="password" />
+                            <asp:CompareValidator ID="CompareValidator2" runat="server" ErrorMessage="Las contraseñas no coiciden" ControlToCompare="txPassword" ControlToValidate="txPassword2" Text="Las contraseñas no coiciden" Font-Bold="True"></asp:CompareValidator>
                         </div>
                     </div>
                 </div>
