@@ -38,12 +38,12 @@
                 </div>
             </span>
         </div>
-        <br />
-        <br />
-        <asp:Label ID="lbElaborado" runat="server" Text="Label">Elaborado por:</asp:Label>
-        <br />
-        <asp:Label ID="lbNombres" runat="server" Text="Label">Daniela Diaz Bejarano, Cristian Felipe Reyes Cortes, Milmax Jeffrey Duque Asprilla</asp:Label><br />
-        <asp:Label ID="lbIng" runat="server" Text="Label">Ingenieria Multimedia</asp:Label>
-
+        <div class="footer">
+            <asp:Label ID="lbElaborado" runat="server" Text="Label">Elaborado por:</asp:Label>
+            <br />
+            <asp:Label ID="lbNombres" runat="server" Text="Label">Daniela Diaz Bejarano, Cristian Felipe Reyes Cortes, Milmax Jeffrey Duque Asprilla</asp:Label><br />
+            <asp:Label ID="lbIng" runat="server" Text="Label">Ingenieria Multimedia</asp:Label><br />
+            <asp:Label ID="lbCR" runat="server" Text="Label">Copyright © 2018 PELISPLUS. All rights reserved.</asp:Label>
+        </div>
     </div>
 </asp:Content>

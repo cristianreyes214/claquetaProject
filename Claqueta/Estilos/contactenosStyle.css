@@ -93,3 +93,13 @@ a {
     border: 1px solid #383638;
 }
 
+.footer {
+    background-color: lightgray;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    bottom: 0%;
+    color:black;
+    font-size:12px;
+}

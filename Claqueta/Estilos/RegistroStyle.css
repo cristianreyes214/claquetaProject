@@ -22,3 +22,54 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+.imaUsuario{
+position: absolute;
+left: 19%;
+top: 2%;
+}
+
+.imaTipo {
+    position: absolute;
+    left: 39%;
+    top: 3%;
+}
+
+.imaDoc {
+    position: absolute;
+    left: 45%;
+    top: 4%;
+}
+
+.imaNombre {
+    position: absolute;
+    left: 20%;
+    top: 4%;
+}
+
+.imaApellido {
+    position: absolute;
+    left: 19%;
+    top: 4%;
+}
+
+.imaCorreo {
+    position: absolute;
+    left: 37%;
+    top: 3%;
+}
+.imaCorreo2 {
+    position: absolute;
+    left: 55%;
+    top: 4%;
+}
+.imaContra {
+    position: absolute;
+    left: 25%;
+    top: 2%;
+}
+.imaContra2 {
+    position: absolute;
+    left: 43%;
+    top: 3%;
+}

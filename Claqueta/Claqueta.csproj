@@ -114,6 +114,7 @@
     <Content Include="Imagenes\InicioSesion\movie-tickets.png" />
     <Content Include="Imagenes\InicioSesion\movie.png" />
     <Content Include="Imagenes\InicioSesion\multimedia.png" />
+    <Content Include="Imagenes\InicioSesion\skip.png" />
     <Content Include="Imagenes\InicioSesion\user.png" />
     <Content Include="Imagenes\left-arrow.png" />
     <Content Include="Imagenes\Master\IngUser.png" />
