@@ -3,14 +3,22 @@
     src: url('Fonts/HussarBold.otf') format('opentype');
 }
 
+.textIni {
+    position: relative;
+    right: 15%;
+    top: 325px;
+    border: solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
 
 .form_inicio {
-    position: fixed;
-    top: 100px;
-    right: 100px;
-    border:solid;
-    background-color:whitesmoke;
-    border-radius:10px;
+    position: relative;
+    left: 35%;
+    top: 75px;
+    /*border: solid;*/
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .lbIng{
