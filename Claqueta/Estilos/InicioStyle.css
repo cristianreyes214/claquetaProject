@@ -6,16 +6,21 @@
 .textIni {
     position: relative;
     right: 15%;
-    top: 325px;
-    border: solid;
-    background-color: whitesmoke;
+    top: 225px;
+    /*border: solid;
+    background-color: whitesmoke;*/
     border-radius: 10px;
+}
+
+.text_info{
+    font-family:Verdana;
+    font-size:15px;
+    color:darkblue;
 }
 
 .form_inicio {
     position: relative;
     left: 35%;
-    top: 75px;
     /*border: solid;*/
     background-color: whitesmoke;
     border-radius: 10px;

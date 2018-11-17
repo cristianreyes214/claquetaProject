@@ -8,8 +8,12 @@
     <asp:Panel ID="FormRegistro" runat="server">
         
         <div class="textIni col-7">
-            <asp:label ID="lb" runat="server" Text="Label">Obten información de interes sobre las peliculas nuevas</asp:label> <br />
-            <asp:label ID="lbTx" runat="server" Text="Label">Selecciona tus peliculas favoritas</asp:label> <br />
+            <asp:Image ID="Image1" runat="server"  ImageUrl="~/Imagenes/InicioSesion/multimedia.png" />
+            <asp:label ID="lbInfo1" class="text_info" runat="server" Text="Label">Obten información sobre las peliculas nuevas</asp:label> <br />
+            <asp:Image ID="Image2" runat="server"  ImageUrl="~/Imagenes/InicioSesion/movie-tickets.png" />
+            <asp:label ID="lbInfo2" class="text_info" runat="server" Text="Label">Los lugares donde podras verlas</asp:label> <br />
+            <asp:Image ID="Image3" runat="server"  ImageUrl="~/Imagenes/InicioSesion/movie.png" />
+            <asp:label ID="lbInfo3" class="text_info" runat="server" Text="Label">Selecciona tus peliculas favoritas</asp:label> <br />
         </div>
         <div class="form_inicio container col-7">
             <div class="imaInicio text-center">

@@ -111,6 +111,9 @@
     <Content Include="Imagenes\Banners\naceUnaEstrellabanner.jpg" />
     <Content Include="Imagenes\bohemian.jpg" />
     <Content Include="Imagenes\el cascanueces.jpg" />
+    <Content Include="Imagenes\InicioSesion\movie-tickets.png" />
+    <Content Include="Imagenes\InicioSesion\movie.png" />
+    <Content Include="Imagenes\InicioSesion\multimedia.png" />
     <Content Include="Imagenes\InicioSesion\user.png" />
     <Content Include="Imagenes\left-arrow.png" />
     <Content Include="Imagenes\Master\IngUser.png" />
