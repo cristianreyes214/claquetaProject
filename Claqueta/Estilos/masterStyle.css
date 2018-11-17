@@ -105,21 +105,6 @@ body {
     }
 
 
-/*.txBusqueda {
-    position: absolute;
-    left: 45px;
-    top: 5px;
-    width: 250px;
-    padding: 15px 10px;
-    background-color:transparent;
-    border-color:transparent;
-    color:white;
-
-}*/
-
-
-
-
 .inicio_header {
     position: absolute;
     right: 20px;
@@ -128,7 +113,7 @@ body {
     width: 230px;
     color:lightgray;
     font-family:HussarBold;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .inicio_header:hover {
@@ -136,4 +121,10 @@ body {
     color:ghostwhite;
 
   
+}
+
+.imgUser{
+position: relative;
+bottom: 3px;
+width: 17px;
 }

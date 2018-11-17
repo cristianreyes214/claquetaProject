@@ -103,8 +103,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <asp:Button ID="btRegistrar" class="btn btn-primary btn-lg ml-4" onclick="btRegistrar_Click" runat="server" Text="Registrar" />
-                    <asp:Button ID="btSalir" class="btn btn-primary btn-lg ml-4" onclick="btSalir_Click" runat="server" Text="Salir" />
+                    <asp:Button ID="btRegistrar" class="btn btn-primary btn-lg ml-4 col-4" onclick="btRegistrar_Click" runat="server" Text="Registrar" />
+                    <asp:Button ID="btSalir" class="btn btn-primary btn-lg ml-4 col-4" onclick="btSalir_Click" runat="server" Text="Salir" />
                 </div>
             </div>
         </div>

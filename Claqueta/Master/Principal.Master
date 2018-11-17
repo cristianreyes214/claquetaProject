@@ -4,85 +4,81 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Claqueta</title>
     <!-- CSS BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="../css/bootstrap.css" rel="stylesheet" />
-    <script src="../js/jquery-3.3.1.js"></script> 
+    <script src="../js/jquery-3.3.1.js"></script>
     <script src="../Scripts/scriptMenu.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../Estilos/menuStyle.css" rel="stylesheet" />
     <link href="../Estilos/masterStyle.css" rel="stylesheet" />
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body >
-    <form id="form1" runat="server" >
-       
-            <!--barra superior-->
-            <div class="navbar_header ">
-                <div class="container_header position-fixed">
-                    <div class="logo_header  align-middle">
-                        <asp:ImageButton ID="imaBtLogo" runat="server" ImageUrl="~/Imagenes/Master/Claqueta_Letter.png" />
-                    </div>
-                    <div class="search_header">
-                        <div class="container_search">
-                            <span class="icon"><i class="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Nombre o palabra clave" />
-                        </div>
-                    </div>
-                    <div class="userBar_header text-right align-middle">
-                            <a href="../Modulos/InicioSesion.aspx" class="inicio_header">
-                                <asp:Image ID="imaUser" runat="server" ImageUrl="~/Imagenes/Master/IngUser.png" />
-                                <asp:Label ID="Label1" runat="server" Text="Label">Iniciar Sesión</asp:Label>
-                            </a>
+<body>
+    <form id="form1" runat="server">
+        <!--barra superior-->
+        <div class="navbar_header ">
+            <div class="container_header position-fixed">
+                <div class="logo_header  align-middle">
+                    <asp:ImageButton ID="imaBtLogo" runat="server" ImageUrl="~/Imagenes/Master/Claqueta_Letter.png" />
+                </div>
+                <div class="search_header">
+                    <div class="container_search">
+                        <span class="icon"><i class="fa fa-search "></i></span>
+                        <input type="search" id="search" placeholder="Nombre o palabra clave" />
                     </div>
                 </div>
+                <div class="userBar_header text-right align-middle">
+                    <a href="../Modulos/InicioSesion.aspx" class="inicio_header">
+                        <asp:Image ID="imaUser" class="imgUser" runat="server" ImageUrl="~/Imagenes/Master/IngUser.png" />
+                        <asp:Label ID="Label1" runat="server" Text="Label">Iniciar Sesión</asp:Label>
+                    </a>
+                </div>
             </div>
-        
+        </div>
         <div class="container-fluid contenedor--div ">
             <div class="icono--div">
                 <div class="icono">
-                <a href="#">
-                    <asp:Image ID="imaMenu" runat="server" ImageUrl="~/Imagenes/Master/menu.png" />
-                </a>
+                    <a href="#">
+                        <asp:Image ID="imaMenu" runat="server" ImageUrl="~/Imagenes/Master/menu.png" />
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class=" contenedor--menu">
-            <ul class="menu">
-                <li><a class="menu__enlace" href="#">Estrenos</a></li>
-                <li><a class="menu__enlace" href="#">Peliculas</a>
-                    <ul class="submenu">
-                        <li><a class="submenu__enlace" href="#">Favoritas</a></li>
-                    </ul>
-                </li>
-                <li><a class="menu__enlace" href="#">Salas de Cine</a>
-                    <ul class="submenu">
-                        <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
-                        <li><a class="submenu__enlace" href="../Modulos/Unicentro.aspx">Unicentro</a></li>
-                        <li><a class="submenu__enlace" href="../Modulos/Palmetto.aspx">Palmetto</a></li>
-                    </ul>
-                </li>
-                <li><a class="menu__enlace" href="../Modulos/contactenos.aspx">Contactenos</a></li>
-                <li><a class="menu__enlace" href="../Modulos/Perfil.aspx">Perfil</a></li>
-            </ul>
-        </div>
-        <div class="container contenido__div" style="background-color:white">
-            <div class="container contenido">
-                
+            <div class=" contenedor--menu">
+                <ul class="menu">
+                    <li><a class="menu__enlace" href="#">Estrenos</a></li>
+                    <li><a class="menu__enlace" href="#">Peliculas</a>
+                        <ul class="submenu">
+                            <li><a class="submenu__enlace" href="#">Favoritas</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu__enlace" href="#">Salas de Cine</a>
+                        <ul class="submenu">
+                            <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
+                            <li><a class="submenu__enlace" href="../Modulos/Unicentro.aspx">Unicentro</a></li>
+                            <li><a class="submenu__enlace" href="../Modulos/Palmetto.aspx">Palmetto</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu__enlace" href="../Modulos/contactenos.aspx">Contactenos</a></li>
+                    <li><a class="menu__enlace" href="../Modulos/Perfil.aspx">Perfil</a></li>
+                </ul>
+            </div>
+            <div class="container contenido__div" style="background-color: white">
+                <div class="container contenido">
                     <div>
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                         </asp:ContentPlaceHolder>
                     </div>
-                
+                </div>
             </div>
         </div>
-    </div>
     </form>
 </body>
 </html>
