@@ -12,6 +12,17 @@ namespace Claqueta.Modulos
 {
     public partial class Perfil : System.Web.UI.Page
     {
+        protected void Page_PreInit(object sender, EventArgs e)
+        {
+            if (Session["usuario"] != null)
+            {
+                MasterPageFile = "Principal.master";
+            }
+            else
+            {
+                MasterPageFile = "PrincipalLogin.master";
+            }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             String usuario = Request.QueryString["valor"];

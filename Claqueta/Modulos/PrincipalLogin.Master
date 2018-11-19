@@ -37,7 +37,7 @@
                 </div>
                 <div class="userBar_header text-right align-middle inicio_header">
                     <asp:Label ID="lbUser" runat="server" Text="lbUser"></asp:Label>
-                    <a href="../Modulos/Cosmocentro.aspx" style="color: lightgray;">, Salir</a>
+                     <asp:Button ID="btnLogOut" runat="server" Text="Cerrar Sesión" OnClick="btnLogOut_Click" OnClientClick="return confirm('¿Esta seguro que desea cerrar sesión?')" CssClass="btCerrarS" />
                 </div>
             </div>
         </div>

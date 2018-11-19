@@ -33,6 +33,13 @@ namespace Claqueta.Master
             {
 
             }
+
+           
+        }
+        protected void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("InicioSesion.aspx");
         }
     }
     
