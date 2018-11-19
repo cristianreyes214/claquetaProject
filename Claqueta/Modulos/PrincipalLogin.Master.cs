@@ -8,36 +8,24 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace Claqueta.Modulos
+namespace Claqueta.Master
 {
-    public partial class Perfil : System.Web.UI.Page
+    public partial class PrincipalLogin : System.Web.UI.MasterPage
     {
-        protected void Page_PreInit(object sender, EventArgs e)
-        {
-            if (Session["usuario"] != null)
-            {
-                MasterPageFile = "Principal.master";
-            }
-            else
-            {
-                MasterPageFile = "PrincipalLogin.master";
-            }
-        }
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             String usuario = Request.QueryString["valor"];
             try
             {
-                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["claqueta_dbConnectionString"].ConnectionString);
-                string strSQL = "SELECT usuario FROM claqueta WHERE usuario ='" + usuario + "'";
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Sistema_Ventas"].ConnectionString);
+                string strSQL = "SELECT usuario FROM registro WHERE usuario ='" + usuario + "'";
                 SqlCommand com = new SqlCommand(strSQL, con);
                 con.Open();
                 SqlDataReader reader = com.ExecuteReader();
                 if (reader.Read())
                 {
                     lbUser.Text = reader.GetString(0);
-                    tipoDocumento.Text = reader.GetString(0);
-                    documento.Text = reader.GetString(0);
                 }
                 con.Close();
             }
@@ -45,6 +33,14 @@ namespace Claqueta.Modulos
             {
 
             }
+
+           
+        }
+        protected void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("InicioSesion.aspx");
         }
     }
+    
 }

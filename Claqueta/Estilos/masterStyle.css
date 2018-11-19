@@ -128,3 +128,16 @@ position: relative;
 bottom: 3px;
 width: 17px;
 }
+
+.btCerrarS {
+    background-color:transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    padding: 15px 10px;
+    width: 230px;
+    color: lightgray;
+    font-family: HussarBold;
+    font-size: 16px;
+}

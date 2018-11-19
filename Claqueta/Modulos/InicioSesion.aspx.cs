@@ -21,7 +21,7 @@ namespace Claqueta.Modulos
         {
             string user = txUser.Value;
             string contrasena = txPassword.Value;
-            string Documento = "";
+            string usuario = "";
             string Contrasena = "";
             try
             {
@@ -34,7 +34,7 @@ namespace Claqueta.Modulos
 
                 if (reader.Read())
                 {
-                    Documento = reader.GetString(0);
+                    usuario = reader.GetString(0);
                     Contrasena = reader.GetString(1);
                 }
                 sqlConn.Close();
@@ -43,14 +43,16 @@ namespace Claqueta.Modulos
             {
 
             }
-            if (Documento == user && Contrasena == contrasena && Documento != "")
+            if (usuario == user && Contrasena == contrasena && user != "")
             {
                 Response.Redirect("Cosmocentro.aspx");
+                Response.Redirect("PrincipalLogin.Master?valor=" + usuario);
             }
             else
             {
-               // ClientScript.RegisterStartupScript(GetType(), "id", "validar_inicio()", true);
+                ClientScript.RegisterStartupScript(GetType(), "id", "validar_inicio()", true);
             }
+          
         }
     }
 }

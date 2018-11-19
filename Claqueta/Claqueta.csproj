@@ -160,6 +160,7 @@
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="Estilos\Fonts\HussarBold.otf" />
     <Content Include="Master\FormInicio.Master" />
+    <Content Include="Modulos\PrincipalLogin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -187,6 +188,13 @@
     </Compile>
     <Compile Include="Master\Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\PrincipalLogin.Master.cs">
+      <DependentUpon>PrincipalLogin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\PrincipalLogin.Master.designer.cs">
+      <DependentUpon>PrincipalLogin.Master</DependentUpon>
     </Compile>
     <Compile Include="Modulos\contactenos.aspx.cs">
       <DependentUpon>contactenos.aspx</DependentUpon>
