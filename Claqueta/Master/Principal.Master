@@ -54,11 +54,7 @@
             <div class=" contenedor--menu">
                 <ul class="menu">
                     <li><a class="menu__enlace" href="#">Estrenos</a></li>
-                    <li><a class="menu__enlace" href="#">Peliculas</a>
-                        <ul class="submenu">
-                            <li><a class="submenu__enlace" href="#">Favoritas</a></li>
-                        </ul>
-                    </li>
+                    <li><a class="menu__enlace" href="#">Peliculas</a></li>
                     <li><a class="menu__enlace" href="#">Salas de Cine</a>
                         <ul class="submenu">
                             <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
@@ -67,7 +63,6 @@
                         </ul>
                     </li>
                     <li><a class="menu__enlace" href="../Modulos/contactenos.aspx">Contactenos</a></li>
-                    <li><a class="menu__enlace" href="../Modulos/Perfil.aspx">Perfil</a></li>
                 </ul>
             </div>
             <div class="container contenido__div" style="background-color: white">

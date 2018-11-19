@@ -55,21 +55,21 @@
         <nav>
             <div class="contenedor">
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=sVBa5hNZFHM"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen1"></div>
                 </div>
 
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=x4DENTMBwXo"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen2"></div>
                 </div>
 
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=mYTmQWZkw10"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen3"></div>
@@ -77,21 +77,21 @@
             </div>
             <div class="contenedor">
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=65jEdJHko-M"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen4"></div>
                 </div>
 
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=01Sn153r9RY"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen5"></div>
                 </div>
 
                 <div class="contenedores">
-                    <a><p class="texto">Descripción</p></a>
+                    <a href="Descripcion.aspx"><p class="texto">Descripción</p></a>
                     <a href="https://www.youtube.com/watch?v=RunY-tRHo9A"><p class="texto">Ver trailer</p></a>
                     <a href="Horarios.aspx"><p class="texto">Ver horarios</p></a>
                     <div class="imagen6"></div>
