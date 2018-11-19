@@ -14,7 +14,7 @@ namespace Claqueta.Master
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write("Bienvenido " + Session["usuario"]);
+            
             String usuario = Request.QueryString["valor"];
             try
             {

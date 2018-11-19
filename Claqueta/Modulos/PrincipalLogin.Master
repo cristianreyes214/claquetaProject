@@ -35,9 +35,9 @@
                         <input type="search" id="search" placeholder="Nombre o palabra clave" />
                     </div>
                 </div>
-                <div class="userBar_header text-right align-middle">
-                    <asp:Label ID="lbUser" runat="server" Text="lbUsuario"></asp:Label>
-                    <a href="../Modulos/Cosmocentro.aspx">, Salir</a>
+                <div class="userBar_header text-right align-middle inicio_header">
+                    <asp:Label ID="lbUser" runat="server" Text="lbUser"></asp:Label>
+                    <a href="../Modulos/Cosmocentro.aspx" style="color: lightgray;">, Salir</a>
                 </div>
             </div>
         </div>
