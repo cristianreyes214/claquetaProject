@@ -87,7 +87,7 @@ namespace Claqueta.Modulos
                                 validarUsuario = true;
                             }
 
-                            //valida el usuario
+                            //valida el correo
                             while (rd.Read())
                             {
                                 if (rd[5].ToString() == Correo)
@@ -107,7 +107,6 @@ namespace Claqueta.Modulos
                             {
                                 validarCorreo= true;
                             }
-
                         }
 
                         if (validarUsuario==true && validarCorreo == true)

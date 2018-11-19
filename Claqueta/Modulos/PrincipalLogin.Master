@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="Claqueta.Principal" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PrincipalLogin.master.cs" Inherits="Claqueta.Master.PrincipalLogin" %>
 
 <!DOCTYPE html>
 
@@ -36,10 +36,8 @@
                     </div>
                 </div>
                 <div class="userBar_header text-right align-middle">
-                    <a href="../Modulos/InicioSesion.aspx" class="inicio_header">
-                        <asp:Image ID="imaUser" class="imgUser" runat="server" ImageUrl="~/Imagenes/Master/IngUser.png" />
-                        <asp:Label ID="Label1" runat="server" Text="Label">Iniciar Sesión</asp:Label>
-                    </a>
+                    <asp:Label ID="lbUser" runat="server" Text="lbUsuario"></asp:Label>
+                    <a href="../Modulos/Cosmocentro.aspx">, Salir</a>
                 </div>
             </div>
         </div>
@@ -54,7 +52,11 @@
             <div class=" contenedor--menu">
                 <ul class="menu">
                     <li><a class="menu__enlace" href="#">Estrenos</a></li>
-                    <li><a class="menu__enlace" href="#">Peliculas</a></li>
+                    <li><a class="menu__enlace" href="#">Peliculas</a>
+                        <ul class="submenu">
+                            <li><a class="submenu__enlace" href="#">Favoritas</a></li>
+                        </ul>
+                    </li>
                     <li><a class="menu__enlace" href="#">Salas de Cine</a>
                         <ul class="submenu">
                             <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
