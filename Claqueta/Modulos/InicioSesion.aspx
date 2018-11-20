@@ -27,7 +27,7 @@
                 <div class="contentInp col text-left">
                     <asp:Label ID="lbUSer" class="pl-4" runat="server" Text="Label">Usuario</asp:Label>
                     <div class="col-sm-12">
-                        <input id="txUser" class="form-control" type="text" runat="server" placeholder="usuario" onkeypress="return checkNombre(event)"/>
+                        <input id="txUser" class="form-control" type="text" runat="server" placeholder="usuario"/>
                     </div>
                 </div>
             </div>
