@@ -43,14 +43,14 @@ namespace Claqueta.Modulos
             {
 
             }
-            if (usuario == user && Contrasena == contrasena && user != "")
+            if (usuario == user && Contrasena == contrasena && usuario != "")
             {
                 Response.Redirect("Cosmocentro.aspx");
-                Response.Redirect("PrincipalLogin.Master?valor=" + usuario);
+                Response.Redirect("PrincipalLogin.Master?valor=" + user);
             }
             else
             {
-                ClientScript.RegisterStartupScript(GetType(), "id", "validar_inicio()", true);
+                ClientScript.RegisterStartupScript(GetType(), "id","" , true);
             }
           
         }

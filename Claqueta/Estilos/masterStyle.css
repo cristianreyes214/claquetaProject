@@ -129,14 +129,36 @@ bottom: 3px;
 width: 17px;
 }
 
+.lbUser{
+    position: absolute;
+    right: 134px;
+    top: 10px;
+    padding: 15px 10px;
+    width: 230px;
+    color: lightgray;
+    font-family: HussarBold;
+    font-size: 16px;
+}
+
+.lbComa{
+    position: absolute;
+    right: 128px;
+    top: 10px;
+    padding: 15px 10px;
+    width: 230px;
+    color: lightgray;
+    font-family: HussarBold;
+    font-size: 16px;
+}
+
 .btCerrarS {
     background-color:transparent;
     border: none;
     position: absolute;
-    right: 20px;
-    top: 11px;
-    padding: 15px 10px;
-    width: 230px;
+    right: -3px;
+    top: 10px;
+    padding: 15px 0px;
+    width: 144px;
     color: lightgray;
     font-family: HussarBold;
     font-size: 16px;

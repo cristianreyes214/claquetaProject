@@ -19,7 +19,7 @@ namespace Claqueta.Master
             try
             {
                 SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Sistema_Ventas"].ConnectionString);
-                string strSQL = "SELECT usuario FROM registro WHERE usuario ='" + usuario + "'";
+                string strSQL = "SELECT usuario FROM [registro]";
                 SqlCommand com = new SqlCommand(strSQL, con);
                 con.Open();
                 SqlDataReader reader = com.ExecuteReader();
@@ -28,6 +28,7 @@ namespace Claqueta.Master
                     lbUser.Text = reader.GetString(0);
                 }
                 con.Close();
+                
             }
             catch (Exception ex)
             {
