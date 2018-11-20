@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Claqueta.Modulos
 {
-    public partial class PeliculasFavoritas : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class PeliculasFavoritas : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

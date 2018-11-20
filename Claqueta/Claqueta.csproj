@@ -139,6 +139,7 @@
     <Content Include="Modulos\Horarios.aspx" />
     <Content Include="Modulos\InicioSesion.aspx" />
     <Content Include="Modulos\Palmetto.aspx" />
+    <Content Include="Modulos\PeliculasFavoritas.aspx" />
     <Content Include="Modulos\Perfil.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\Unicentro.aspx" />
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="Master\Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\PeliculasFavoritas.aspx.cs">
+      <DependentUpon>PeliculasFavoritas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\PeliculasFavoritas.aspx.designer.cs">
+      <DependentUpon>PeliculasFavoritas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\PrincipalLogin.Master.cs">
       <DependentUpon>PrincipalLogin.Master</DependentUpon>
