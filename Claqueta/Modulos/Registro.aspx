@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal.Master" AutoEventWireup="true" CodeBehind="Registro.aspx.cs" Inherits="Claqueta.Modulos.Registro" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../Estilos/RegistroStyle.css" rel="stylesheet" />
+    <script src="../Scripts/Registro.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="FormRegistro" runat="server">
@@ -39,7 +40,7 @@
                         <label for="txDocumento" class="col-sm-10 ">Numero de Documento:</label>
                         <asp:Image ID="imaDoc" CssClass="imaDoc" runat="server" ImageUrl="~/Imagenes/InicioSesion/skip.png" />    
                         <div class="col-sm-12">
-                            <input name="txDocumento" id="txDocumento" class="form-control" runat="server" type="number" />
+                            <input name="txDocumento" id="txDocumento" class="form-control" runat="server" type="number" onkeypress="return checkDocumento(event)"/>
                         </div>
                     </div>
                 </div>
@@ -50,7 +51,7 @@
                         <label for="txNombre" class="col-sm-12 ">Nombre:</label>
                         <asp:Image ID="imaNombre" CssClass="imaNombre" runat="server" ImageUrl="~/Imagenes/InicioSesion/skip.png" />    
                         <div class="col-sm-12">
-                            <input name="txNombre" id="txNombre" class="form-control" runat="server" type="text" />
+                            <input name="txNombre" id="txNombre" class="form-control" runat="server" type="text" onkeypress="return checkNombre(event)"/>
                         </div>
                     </div>
                 </div>
@@ -59,7 +60,7 @@
                         <label for="txApellido" class="col-sm-12 ">Apellido:</label>
                         <asp:Image ID="imaApellido" CssClass="imaApellido" runat="server" ImageUrl="~/Imagenes/InicioSesion/skip.png" />    
                         <div class="col-sm-12">
-                            <input name="txApellido" id="txApellido" class="form-control" runat="server" type="text" />
+                            <input name="txApellido" id="txApellido" class="form-control" runat="server" type="text" onkeypress="return checkNombre(event)"/>
                         </div>
                     </div>
                 </div>

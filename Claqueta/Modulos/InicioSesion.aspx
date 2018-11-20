@@ -2,6 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../Estilos/InicioStyle.css" rel="stylesheet" />
+    <script src="../Scripts/Registro.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -26,7 +27,7 @@
                 <div class="contentInp col text-left">
                     <asp:Label ID="lbUSer" class="pl-4" runat="server" Text="Label">Usuario</asp:Label>
                     <div class="col-sm-12">
-                        <input id="txUser" class="form-control" type="text" runat="server" placeholder="usuario" />
+                        <input id="txUser" class="form-control" type="text" runat="server" placeholder="usuario" onkeypress="return checkNombre(event)"/>
                     </div>
                 </div>
             </div>
