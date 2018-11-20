@@ -35,9 +35,10 @@
                         <input type="search" id="search" placeholder="Nombre o palabra clave" />
                     </div>
                 </div>
-                <div class="userBar_header text-right align-middle inicio_header">
-                    <asp:Label ID="lbUser" runat="server" Text="lbUser"></asp:Label>
-                     <asp:Button ID="btnLogOut" runat="server" Text="Cerrar Sesión" OnClick="btnLogOut_Click" OnClientClick="return confirm('¿Esta seguro que desea cerrar sesión?')" CssClass="btCerrarS" />
+                <div class="userBar_header text-right align-middle ">
+                    <asp:Label ID="lbUser" runat="server" Text="lbUser" class="lbUser"></asp:Label>
+                    <asp:Label ID="lbcoma" runat="server" Text="lbComa" class="lbComa">,</asp:Label>
+                     <asp:Button ID="btnLogOut" runat="server" Text="Cerrar Sesión" OnClick="btnLogOut_Click" OnClientClick="return confirm('¿Esta seguro que desea cerrar sesión?')" class="btCerrarS" />
                 </div>
             </div>
         </div>
