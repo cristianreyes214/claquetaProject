@@ -53,8 +53,10 @@
             </div>
             <div class=" contenedor--menu">
                 <ul class="menu">
-                    <li><a class="menu__enlace" href="#">Estrenos</a></li>
-                    <li><a class="menu__enlace" href="#">Peliculas</a></li>
+                    <li><a class="menu__enlace" href="../Modulos/Estrenos.aspx">Estrenos</a></li>
+                    <li><a class="menu__enlace" href="../Modulos/peliculas.aspx">Peliculas</a>
+                       
+                    </li>
                     <li><a class="menu__enlace" href="#">Salas de Cine</a>
                         <ul class="submenu">
                             <li><a class="submenu__enlace" href="../Modulos/Cosmocentro.aspx">Cosmocentro</a></li>
