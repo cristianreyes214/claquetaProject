@@ -10,6 +10,6 @@
 namespace Claqueta.Modulos {
     
     
-    public partial class Home {
+    public partial class descripcion_peliculas {
     }
 }

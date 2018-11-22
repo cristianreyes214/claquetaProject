@@ -136,7 +136,8 @@
     <Content Include="js\jquery-3.3.1.js" />
     <Content Include="Modulos\contactenos.aspx" />
     <Content Include="Modulos\Cosmocentro.aspx" />
-    <Content Include="Modulos\estoesunaprueba.aspx" />
+    <Content Include="Modulos\descripcion_peliculas.aspx" />
+    <Content Include="Modulos\Home.aspx" />
     <Content Include="Modulos\Horarios.aspx" />
     <Content Include="Modulos\InicioSesion.aspx" />
     <Content Include="Modulos\Palmetto.aspx" />
@@ -192,12 +193,19 @@
     <Compile Include="Master\Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\estoesunaprueba.aspx.cs">
-      <DependentUpon>estoesunaprueba.aspx</DependentUpon>
+    <Compile Include="Modulos\descripcion_peliculas.aspx.cs">
+      <DependentUpon>descripcion_peliculas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Modulos\estoesunaprueba.aspx.designer.cs">
-      <DependentUpon>estoesunaprueba.aspx</DependentUpon>
+    <Compile Include="Modulos\descripcion_peliculas.aspx.designer.cs">
+      <DependentUpon>descripcion_peliculas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\PeliculasFavoritas.aspx.cs">
       <DependentUpon>PeliculasFavoritas.aspx</DependentUpon>
